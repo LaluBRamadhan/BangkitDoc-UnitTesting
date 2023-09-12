@@ -10,4 +10,5 @@ class MainViewModel(val cuboidViewModel: CuboidModel) {
     fun save(w:Double, l:Double, h: Double){
         cuboidViewModel.save(w,l,h)
     }
+
 }
